@@ -1,4 +1,4 @@
 <?php
 
-$view = "home";
+$view = "sobre_nosotros";
 require_once "views/layout.php";
