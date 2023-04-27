@@ -8,6 +8,11 @@
     height:45px;
     margin-top:20px;
 }
+
+#logo_menu{
+    cursor: pointer;
+}
+
 #items_menu{
     margin-top:30px;
 }
@@ -22,6 +27,11 @@
 
 .redes_menu{
     margin-top: 33px;
+}
+
+.redes_menu img:hover{
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .img_redes_menu{
@@ -43,6 +53,13 @@
     padding-bottom:10px;
     margin-top:29px;
 }
+
+#btn_descargar:hover{
+    color:white;
+    background-color: red;
+    cursor: pointer;
+}
+
 #btn_des{
     display:none;
     padding: 0;

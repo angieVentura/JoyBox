@@ -1,7 +1,7 @@
 <div class="container-fluid p-0 m-0" id="menu">
     <div class="row ">
         <div class="col-2 p-0">
-            <img src="img/logo.png" id="logo_menu" alt="">
+            <a href="index.php"><img src="img/logo.png" id="logo_menu" alt=""></a>
         </div>
         <div class="col-6 container p-0 m-0" id="secciones_menu">
             <nav class="row" id="items_menu">
