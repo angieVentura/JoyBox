@@ -21,7 +21,7 @@
         </div>
     </div>
     <hr>
-    <div class="row">
+    <div class="row copyright">
         <div class="col-md-12">
             <p class="text-center">&copy; 2023 GameWise. All rights reserved.</p>
         </div>
