@@ -25,7 +25,7 @@
         </div>
     </div>
 </div>
-<div id="mobile_menu" style="margin-top:-255px;">
+<div id="mobile_menu" style="margin-top:-255px; background-color: transparent; z-index: -1;">
     <p>Inicio</p>
     <p>Sobre nosotros</p>
     <p>Contacto</p>

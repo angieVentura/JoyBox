@@ -2,6 +2,8 @@ var dou1 = true;
 document.querySelector("#btn_des div").addEventListener("click", () => {
     if (dou1 == true) {
         dou1 = false
+        document.querySelector("#mobile_menu").style.backgroundColor = "#fafafa";
+        document.querySelector("#mobile_menu").style.zIndex = 3;
         document.querySelector("#btn_des div").style.pointerEvents = "none";
         var a = setInterval(ai, 4)
         function ai() {
@@ -15,6 +17,8 @@ document.querySelector("#btn_des div").addEventListener("click", () => {
     }
     else {
         dou1 = true
+        document.querySelector("#mobile_menu").style.backgroundColor = "transparent";
+        document.querySelector("#mobile_menu").style.zIndex = -1
         document.querySelector("#btn_des div").style.pointerEvents = "none";
         var a = setInterval(ai, 4)
         function ai() {
