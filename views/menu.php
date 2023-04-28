@@ -1,4 +1,4 @@
-<div class="container-fluid p-0 m-0" id="menu">
+<div class="container-fluid p-0 m-0 #fafafa" id="menu">
     <div class="row ">
         <div class="col-2 p-0">
             <a href="index.php"><img src="img/logo.png" id="logo_menu" alt=""></a>
@@ -12,9 +12,9 @@
         </div>
         <div class="col-4 container p-0" id="redes_menu">
             <div class="row">
-                <div class="col-2 p-0 redes_menu"><img src="img/logo_ig.png" class="img_redes_menu" id="ig" alt=""></div>
-                <div class="col-1 p-0 redes_menu"><img src="img/logo_tt.png" class="img_redes_menu" alt=""></div>
-                <div class="col-2 p-0 redes_menu"><img src="img/logo_tw.png" class="img_redes_menu" alt=""></div>
+                <i class="col-1 p-0 redes_menu bi bi-tiktok red"></i>
+                <i class="col-1 p-0 redes_menu bi bi-instagram"></i>
+                <i class="col-1 p-0 redes_menu bi bi-twitter"></i>
                 <div class="col-7 p-0">
                     <div id="btn_descargar">Descargar</div>
                 </div>
