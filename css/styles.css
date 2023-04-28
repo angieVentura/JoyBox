@@ -1,3 +1,13 @@
+
+:root {
+    --blanco    : #f4f4f4;
+    --grisClaro : #d9d9d9;
+    --grisOscuro: #a6a6a6;
+    --negro     : #1e1d1b;
+    --rojoClaro : #ff3334;
+    --rojoOscuro: #ea2b2a;
+}
+
 #tercon_cont{
     margin-top: 50px;
 }
@@ -8,7 +18,7 @@
     padding-right: 20px;
     padding-bottom: 20px;
     margin-top: 30px;
-    background-color: #e2e2e2;
+    background-color: var(--blanco);
 }
 
 #tercon_cont div div div li{
@@ -17,7 +27,7 @@
 
 #menu{
     width:98.2%;
-    background-color: #fafafa;
+    background-color: var(--blanco);
 }
 #logo_menu{
     margin-left:20%;
@@ -38,7 +48,7 @@
 }
 
 #items_menu div :hover{
-    color: red;
+    color: var(--rojoClaro);
     cursor:pointer;
 }
 
@@ -61,7 +71,8 @@
 }
 
 #btn_descargar{
-    border:black 1px solid;
+    border:var(--negro) 1px solid;
+    background-color: var(--blanco);
     width:150px;
     height:40px;
     border-radius:20px;
@@ -72,8 +83,26 @@
 }
 
 #btn_descargar:hover{
-    color:white;
-    background-color: red;
+    color:var(--blanco);
+    background-color: var(--rojoOscuro);
+    cursor: pointer;
+}
+
+#btn_descargar_footer{
+    border:var(--blanco) 1px solid;
+    background-color: var(--grisOscuro);
+    width:150px;
+    height:40px;
+    border-radius:20px;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:10px;
+    margin-top:29px;
+}
+
+#btn_descargar_footer:hover{
+    color:var(--blanco);
+    background-color: var(--rojoOscuro);
     cursor: pointer;
 }
 
@@ -122,3 +151,8 @@
         width:90%;
     }
 }
+
+.c_footer{
+    background: var(--grisOscuro);
+}
+
