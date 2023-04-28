@@ -22,7 +22,7 @@
     require_once $view . ".php";
 
     ?>
-    <footer class="c_footer text-light py-3 fixed-bottom">
+    <footer class="c_footer text-light py-3">
         <?php require_once "views/footer.php"; ?>
     </footer>
 
