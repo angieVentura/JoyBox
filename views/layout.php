@@ -25,9 +25,9 @@
         require_once $view . ".php";
         ?>
 
-    <footer class="c_footer text-light py-3">
+  
         <?php require_once "views/footer.php"; ?>
-    </footer>
+   
 
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

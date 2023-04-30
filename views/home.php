@@ -30,6 +30,3 @@
         <img src="../JoyBox/img/manchita_juegos.png" alt="" class="juegos">
     </div>
 </div>
-srrtrrthrth
-<!--
--->
