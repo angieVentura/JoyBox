@@ -23,3 +23,15 @@
         </div>
     </div>
 </div>
+<!--
+<div class="seccion-juegos">
+    <div class="contenedor-inicio-juegos">
+        <div class="text-inicio-juegos">
+            <p class="juego">JoyBox es una plataforma en línea que ofrece <br> una gran variedad de juegos, como <br>Chess, Tetris y Truco. Tendrás la opción de jugar<br> solo o con amigos, así como crear <br> comunidades y grupos para conectarte <br>con otros jugadores.
+            </p>
+        </div>
+        <div class="img-inicio-juegos">
+            <img src="../JoyBox/img/manchita_juegos.png" alt="" class="juegos">
+        </div>
+    </div>
+</div>-->

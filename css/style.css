@@ -189,19 +189,49 @@ img.cartas {
 h2.cartas {
     text-align: center;
     color: var(--negro);
-    font-size: xxx-large;
+    font-size: 4.5vw;
     font-weight: 900;
 }
 
 .text-inicio-cartas {
-    transform: translate(-5%, 48%);
+    transform: translate(-5%, 55%);
 }
 
 p.carta {
-    font-size: x-large;
+    font-size: 2.7vw;
     font-weight: 600;
     text-align: center;
     padding-top: 1vw;
+}
+
+/*Inicio juegos*/
+
+.contenedor-inicio-juegos {
+
+    display: flex;
+    position: relative;
+    margin-left: 0;
+    z-index: auto;
+    top: 25%;
+    height: 95%;
+    left: 5%;
+    transform: translate(-8%, -185%);
+
+}
+
+img.juegos {
+    width: 53vw;
+    transform: translate(23%, 17%);
+}
+
+p.juego {
+    text-align: center;
+    color: var(--rojoClaro);
+    font-size: x-large;
+    font-weight: 600;
+}
+.text-inicio-juegos {
+    transform: translate(23%, 38%);
 }
 /*
 #menu{
