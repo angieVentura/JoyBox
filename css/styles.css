@@ -126,32 +126,29 @@ nav.navbar.navbar-expand-lg.navbar-light.navbar-custom {
 
 img.mancha-roja {
     position: relative;
-    width: 80%;
-    top: 50%;
+    width: 75.5vw;
     left: 50%;
-    transform: translate(-9%, -32%);
 }
 
 .contenedor-inicio {
     display: flex;
     position: relative;
+    margin-top: -41vw;
     margin-left: 7.5%;
     z-index: auto;
-    top: 25%;
-    height: 95%;
-    left: 5%;
-    transform: translate(-8%, -238%);
+    transform: translate(-2%, -55%);
 }
 
 .contenedor-imagen {
-    margin-top: -100px;
+    display: flex;
+    margin-left: -8vw;
+    margin-top: -30vw;
     overflow: hidden;
     z-index: 3;
 }
-
 .text-inicio h1{
     font-weight: 900;
-    font-size: 5vw;
+    font-size: 4.9vw;
     width: 95%;
     color: var(--rojoClaro);
 }
@@ -166,39 +163,36 @@ img.mancha-roja {
 
 img.dados {
     width: 54vw;
-    transform: translate(-5%, -5%);
+    transform: translate(-8%, -5%);
 }
 /*inicio cartas*/
 
 .contenedor-inicio-cartas {
     display: flex;
     position: relative;
-    margin-left: -11.5%;
     z-index: auto;
-    top: 25%;
-    height: 95%;
-    left: 5%;
-    transform: translate(-8%, -160%);
+    margin-top: -10vw;
 }
 
 img.cartas {
     width: 60vw;
-    transform: translate(-5%, 17%);
+    transform: translate(-27%, 0%);
 }
 
 h2.cartas {
     text-align: center;
     color: var(--negro);
-    font-size: 4.5vw;
+    font-size: 4.3vw;
     font-weight: 900;
 }
 
 .text-inicio-cartas {
-    transform: translate(-5%, 55%);
+    transform: translate(-17%, 0%);
+    align-self: center;
 }
 
 p.carta {
-    font-size: 2.7vw;
+    font-size: 2.3vw;
     font-weight: 600;
     text-align: center;
     padding-top: 1vw;
@@ -207,31 +201,28 @@ p.carta {
 /*Inicio juegos*/
 
 .contenedor-inicio-juegos {
-
     display: flex;
     position: relative;
     margin-left: 0;
+    margin-top: -4vw;
     z-index: auto;
     top: 25%;
-    height: 95%;
-    left: 5%;
-    transform: translate(-8%, -185%);
-
 }
 
 img.juegos {
-    width: 53vw;
-    transform: translate(23%, 17%);
+    width: 44vw;
+    transform: translate(23%, 0%);
 }
 
 p.juego {
     text-align: center;
     color: var(--rojoClaro);
-    font-size: x-large;
+    font-size: 2.3vw;
     font-weight: 600;
 }
 .text-inicio-juegos {
-    transform: translate(23%, 38%);
+    transform: translate(17%, 0%);
+    align-self: center;
 }
 /*
 #menu{
