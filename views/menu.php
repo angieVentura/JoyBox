@@ -48,13 +48,13 @@
         <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link activo" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link <?php echo($view == "home"? "activo" : "no-activo");?>" aria-current="page" href="index.php">Inicio</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link no-activo" aria-current="page" href="#">Sobre Nosotros</a>
+                    <a class="nav-link <?php echo($view == "sobre_nosotros"? "activo" : "no-activo");?>" aria-current="page" href="sobre_nosotros.php">Sobre Nosotros</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link no-activo" aria-current="page" href="#">Contacto</a>
+                    <a class="nav-link <?php echo($view == "contacto"? "activo" : "no-activo");?>" aria-current="page" href="contacto.php">Contacto</a>
                 </li>
             </ul>
             <div class="redes">

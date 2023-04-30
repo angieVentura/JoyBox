@@ -12,9 +12,12 @@
 
 
 body {
-    background-color: rgb(199, 199, 199);
+    background-color: var(--blanco);
 }
 
+
+
+/*menu*/
 .navbar-custom {
     background-color: transparent;
 }
@@ -26,11 +29,11 @@ body {
 }
 
 img.logo {
-    width: 58px;
+    width: 45px;
 }
 
 img.n_logo {
-    width: 135px;
+    width: 120px;
     margin-right: 5px;
 }
 
@@ -43,16 +46,16 @@ i.redes_menu.bi.bi-instagram,
 i.redes_menu.bi.bi-twitter {
     margin-right: 11px;
     color: var(--blanco);
-    font-size: 25px;
+    font-size: 22px;
 }
 
 button.btn.btn-outline-light.descarga-bnt {
     margin-left: 20px;
     margin-right: 60px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 35px;
+    padding-left: 35px;
     font-weight: 600;
     border-radius: 100px;
     border: var(--blanco) solid 3px;
@@ -111,6 +114,57 @@ nav .nav-link.no-activo:hover::after {
     color: var(--rojoClaro);
     text-decoration: none;
     transition: var(--rojoClaro);
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.navbar-custom {
+    z-index: 1;
+    height: 100px;
+}
+
+/*inicio*/
+
+
+img.mancha-roja {
+    position: relative;
+    width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-8%, -25%);
+}
+
+.contenedor-inicio {
+    display: flex;
+    position: absolute;
+    margin-left: 7.5%;
+    z-index: 2;
+    top: 25%;
+    height: 95%;
+    left: 5%;
+    transform: translate(-8%, -25%);
+}
+
+.contenedor-imagen {
+    margin-top: -100px;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.text-inicio {
+    font-weight: 900;
+    font-size: 420%;
+    width: 87%;
+    align-self: end;
+    color: var(--rojoClaro);
+}
+
+.text-inicio p {
+    padding: 0;
+    margin: 0;
+}
+
+img.dados {
+    width: 110%;
+    transform: translate(-7.5%, 12%);
 }
 
 /*
