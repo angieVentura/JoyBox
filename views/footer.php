@@ -31,8 +31,8 @@
             <p class="text-center">&copy; 2023 GameWise. All rights reserved.</p>
         </div>
         <div class="col-md-4 f-footer" id="TyP">
-            <a class="f-text" href="">Privacy Policy</a>
-            <a class="f-text" href="">Terms and Conditions</a>
+            <a class="f-text" href="polpri.php">Privacy Policy</a>
+            <a class="f-text" href="tercon.php">Terms and Conditions</a>
         </div>
         <div class="col-md-4 f-footer" id="redes">
             <div class="col-1 p-0 redes_menu bi bi-instagram"></div>

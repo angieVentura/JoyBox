@@ -37,9 +37,21 @@ i.redes_menu.bi.bi-tiktok.red,
 i.redes_menu.bi.bi-instagram,
 i.redes_menu.bi.bi-twitter {
     margin-right: 11px;
-    color: var(--blanco);
     font-size: 22px;
 }
+
+i.redes_menu.bi.bi-tiktok.red.blanco,
+i.redes_menu.bi.bi-instagram.blanco,
+i.redes_menu.bi.bi-twitter.blanco {
+    color: var(--blanco);
+}
+
+i.redes_menu.bi.bi-tiktok.red.rojo,
+i.redes_menu.bi.bi-instagram.rojo,
+i.redes_menu.bi.bi-twitter.rojo {
+    color: var(--rojoClaro);
+}
+
 
 button.btn.btn-outline-light.descarga-bnt {
     margin-left: 20px;
@@ -54,9 +66,24 @@ button.btn.btn-outline-light.descarga-bnt {
     font-size: 17px;
 }
 
+button.btn.btn-outline-light.descarga-bnt.blanco {
+    border: var(--blanco) solid 3px;
+}
+
+button.btn.btn-outline-light.descarga-bnt.rojo {
+    border: var(--rojoClaro) solid 3px;
+    color: var(--rojoClaro);
+}
+
 #des-bnt-menu:hover {
     color: var(--rojoClaro);
 }
+
+button.btn.btn-outline-light.descarga-bnt.rojo:hover {
+    background: var(--rojoClaro);
+    color: var(--blanco);
+}
+
 
 #des-bnt-footer:hover {
     color: var(--grisOscuro);
@@ -317,6 +344,10 @@ img.juegos_movil {
 
 
 /*inicio cartas*/
+
+.img-inicio {
+    display: flex;
+}
 
 .contenedor-inicio-cartas {
     display: flex;

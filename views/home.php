@@ -6,7 +6,7 @@
     <div class="text-inicio">
         <h1>DONDE COMIENZA <br>TU DIVERSÍON</h1>
     </div>
-    <div class="img-inicio">
+ <div class="img-inicio">
         <img src="../JoyBox/img/dados.png" alt="Dados" class="dados">
     </div>
 </div>
