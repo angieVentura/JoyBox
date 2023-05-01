@@ -12,8 +12,13 @@
                 <p>Teléfono: +54 9 11 XXXX-XXXX</p>
             </div>
             <div class="col-4 container p-0" id="redes_menu">
-                <div class="row">
-                    <div class="col-7 p-0">
+                <div class="row redes-f">
+                    <div class="redes-ftr">
+                        <div class="col-md-4 f-footer" id="redes-ar">
+                            <div class="col-1 p-0 redes_menu bi bi-instagram"></div>
+                            <div class="col-1 p-0 redes_menu bi bi-tiktok"></div>
+                            <div class="col-1 p-0 redes_menu bi bi-twitter"></div>
+                        </div>
                         <button type="button" class="btn btn-outline-light descarga-bnt" id="des-bnt-footer">Descargar</button>
                     </div>
                 </div>

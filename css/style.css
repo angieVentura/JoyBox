@@ -18,15 +18,7 @@ body {
 
 
 /*menu*/
-.navbar-custom {
-    background-color: transparent;
-}
 
-@media (max-width: 991px) {
-    .navbar-custom {
-        background-color: var(--blanco);
-    }
-}
 
 img.logo {
     width: 45px;
@@ -129,8 +121,96 @@ nav.navbar.navbar-expand-lg.navbar-light.navbar-custom {
     height: 100px;
 }
 
-/*inicio dados*/
+.navbar-custom {
+    background-color: transparent;
+}
 
+
+@media (max-width: 991px) {
+    a.navbar-brand {
+        margin-left: 40px;
+    }
+
+    a#inicio-m {
+        margin-top: 1.5rem;
+    }
+
+    .navbar-custom {
+        background-color: white;
+    }
+
+    .container-fluid {
+        background: white;
+    }
+
+    nav.navbar.navbar-expand-lg.navbar-light.navbar-custom {
+        z-index: 1;
+        height: 67px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.30);
+    }
+
+    button#des-bnt-footer {
+        display: none;
+    }
+
+    button#des-bnt-menu {
+        display: none;
+    }
+
+    li.nav-item {
+        text-align: center;
+    }
+
+    .redes {
+        display: flex;
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
+
+    i.redes_menu.bi.bi-tiktok.red,
+    i.redes_menu.bi.bi-instagram,
+    i.redes_menu.bi.bi-twitter {
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        color: var(--rojoClaro);
+        font-size: 22px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 0px;
+        font-size: x-large;
+        margin-bottom: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link.activo {
+        border: none;
+    }
+}
+
+@media (max-width: 600px) {
+    a.navbar-brand {
+        margin-left: 20px;
+    }
+
+    img.logo {
+        width: 40px;
+    }
+
+    img.n_logo {
+        width: 115px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 370px) {
+    a.navbar-brand {
+        margin-left: 10px;
+    }
+}
+
+
+/*inicio dados*/
 
 img.mancha-roja {
     position: relative;
@@ -176,6 +256,66 @@ img.dados {
     transform: translate(-8%, -5%);
 }
 
+img.juegos_movil {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .contenedor-inicio {
+        transform: translate(-2%, -40%);
+    }
+}
+
+@media (max-width: 420px) {
+    img.mancha-roja {
+        width: 222.5vw;
+        transform: rotate(-62deg);
+        left: 7%;
+    }
+
+    .contenedor-imagen {
+        margin-top: -95vw;
+    }
+
+    .contenedor-inicio {
+        display: GRID;
+        margin-top: -62vw;
+    }
+
+    .img-inicio {
+        overflow: hidden;
+        transform: translate(7px, -325px);
+    }
+
+    img.dados {
+        width: 148vw;
+        transform: translate(0%, 0%);
+    }
+
+    .text-inicio {
+        transform: translate(0%, 340%);
+    }
+
+    .text-inicio h1 {
+        font-size: 9.9vw;
+        width: 78%;
+    }
+
+    .text-inicio {
+        transform: translate(0%, 165%);
+    }
+
+    img.cartas {
+        display: none;
+    }
+
+    img.cartas_movil {
+        display: block;
+    }
+
+}
+
+
 /*inicio cartas*/
 
 .contenedor-inicio-cartas {
@@ -209,6 +349,60 @@ p.carta {
     padding-top: 1vw;
 }
 
+img.cartas_movil {
+    display: none;
+}
+
+
+@media (max-width: 420px) {
+
+    img.cartas {
+        display: none;
+    }
+
+    img.cartas_movil {
+        display: block;
+    }
+
+    img.cartas_movil {
+        width: 166vw;
+        transform: rotate(-5deg) translate(-16%, 0%);
+    }
+
+    .contenedor-inicio-cartas {
+        margin-top: -75vw;
+        display: block;
+    }
+
+    .img-inicio-cartas {
+        display: flex;
+        overflow: hidden;
+    }
+
+    h2.cartas {
+        text-align: center;
+        color: var(--blanco);
+        font-size: 8.3vw;
+        padding-bottom: 2rem;
+    }
+
+    .text-inicio-cartas {
+        width: 92vw;
+        transform: translate(4%, -280%);
+        text-align: -webkit-center;
+    }
+
+    p.carta {
+        font-size: 4.1vw;
+        width: 74%;
+        font-weight: 600;
+        color: var(--blanco);
+        text-align: center;
+        padding-top: 0vw;
+    }
+}
+
+
 /*Inicio juegos*/
 
 .contenedor-inicio-juegos {
@@ -235,13 +429,60 @@ p.juego {
 .text-inicio-juegos {
     transform: translate(17%, 0%);
     align-self: center;
+    width: 40%;
+}
+
+.manchita-r,
+.tetris,
+.chess {
+    display: none;
+}
+
+@media (max-width: 420px) {
+
+    .manchita-r,
+    .tetris,
+    .chess {
+        display: block;
+    }
+
+    .juegos {
+        display: none;
+    }
+
+    .manchita-r {
+        transform: translate(-21%, 1%);
+        width: 180vw;
+    }
+
+    .contenedor-inicio-juegos {
+        margin-top: -40vw;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .img-inicio-juegos {
+        height: 180vw;
+    }
+
+    .text-inicio-juegos {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 76vw;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+
+    p.juego {
+        text-align: center;
+        color: white;
+        font-size: 5vw;
+        font-weight: 600;
+    }
 }
 
 /*FOOTER*/
-
-img.img-footer {
-    width: 98.75vw;
-}
 
 hr:not([size]) {
     height: 2px;
@@ -293,6 +534,11 @@ a.f-text {
     color: white;
     text-decoration: none;
     font-weight: 500;
+}
+
+img.img-footer {
+    margin-bottom: -2px;
+    width: 100%;
 }
 
 /*
@@ -477,4 +723,64 @@ a.f-text {
 
 .copyright {
     width: 98.2%;
+}
+
+div#redes-ar {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    div#redes-ar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-1.p-0.redes_menu.bi {
+        font-size: 20px;
+        margin-right: 15px;
+        margin-left: 15px;
+        width: auto;
+    }
+
+    .row.redes-f {
+        justify-content: center;
+    }
+
+    #redes {
+        display: none;
+    }
+
+    #TyP {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .titulo {
+        font-size: 26px;
+    }
+
+    .subtitulos {
+        font-size: 18px;
+    }
+
+    .textos {
+        font-size: 14px;
+    }
+
+    .listado li {
+        font-size: 12px;
+    }
+
+    .redes_menu {
+        font-size: 22px;
+        padding: 0 10px;
+    }
 }
