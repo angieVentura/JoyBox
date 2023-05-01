@@ -303,6 +303,7 @@ img.juegos_movil {
     .contenedor-inicio {
         transform: translate(-2%, -40%);
     }
+
     .contenedor-imagen {
         display: flex;
         margin-left: -8vw;
@@ -488,6 +489,13 @@ p.juego {
     display: none;
 }
 
+.movil {
+    display: none;
+}
+.web {
+    display: flex;
+}
+
 @media (max-width: 420px) {
 
     .manchita-r,
@@ -520,9 +528,16 @@ p.juego {
         top: 50%;
         left: 50%;
         width: 76vw;
-        z-index: 1;
         display: block;
         transform: translate(-50%, -50%);
+    }
+
+    .movil {
+        display: block;
+    }
+
+    .web {
+        display: none;
     }
 
     p.juego {
