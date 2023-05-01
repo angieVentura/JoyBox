@@ -6,7 +6,7 @@
         <div class="col-6 container p-0 m-0" id="secciones_menu">
             <nav class="row" id="items_menu">
                 <div class="col-2 p-0" style="text-align: right;"><p>Inicio</p></div>
-                <div class="col-3 p-0" style="text-align:center;"><p>Sobre nosotros</p></div>
+                <div class="col-3 p-0" style="text-align:center;"><a href="sobre_nosotros.php">Sobre nosotros</a></div>
                 <div class="col-2 p-0" style="text-align: left;"><p>Contacto</p></div>
             </nav>
         </div>
