@@ -19,7 +19,6 @@ body {
 
 /*menu*/
 
-
 img.logo {
     width: 45px;
 }
@@ -32,6 +31,7 @@ img.n_logo {
 .redes {
     display: flex;
 }
+
 
 i.redes_menu.bi.bi-tiktok.red,
 i.redes_menu.bi.bi-instagram,
@@ -75,7 +75,7 @@ button.btn.btn-outline-light.descarga-bnt.rojo {
     color: var(--rojoClaro);
 }
 
-#des-bnt-menu:hover {
+#des-bnt-menu-blanco:hover {
     color: var(--rojoClaro);
 }
 
@@ -154,6 +154,14 @@ nav.navbar.navbar-expand-lg.navbar-light.navbar-custom {
 
 
 @media (max-width: 991px) {
+
+    nav.navbar.navbar-expand-lg.navbar-light.navbar-custom {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
     a.navbar-brand {
         margin-left: 40px;
     }
@@ -163,11 +171,11 @@ nav.navbar.navbar-expand-lg.navbar-light.navbar-custom {
     }
 
     .navbar-custom {
-        background-color: white;
+        background-color: var(--blanco);
     }
 
     .container-fluid {
-        background: white;
+        background: var(--blanco);
     }
 
     nav.navbar.navbar-expand-lg.navbar-light.navbar-custom {
@@ -180,7 +188,11 @@ nav.navbar.navbar-expand-lg.navbar-light.navbar-custom {
         display: none;
     }
 
-    button#des-bnt-menu {
+    button.btn.btn-outline-light.descarga-bnt.blanco {
+        display: none;
+    }
+
+    button.btn.btn-outline-light.descarga-bnt.rojo {
         display: none;
     }
 
@@ -194,9 +206,9 @@ nav.navbar.navbar-expand-lg.navbar-light.navbar-custom {
         justify-content: center;
     }
 
-    i.redes_menu.bi.bi-tiktok.red,
-    i.redes_menu.bi.bi-instagram,
-    i.redes_menu.bi.bi-twitter {
+    i.redes_menu.bi.bi-tiktok.red.blanco,
+    i.redes_menu.bi.bi-instagram.blanco,
+    i.redes_menu.bi.bi-twitter.blanco {
         margin-right: 5px;
         margin-left: 5px;
         margin-bottom: 10px;
@@ -301,7 +313,7 @@ img.juegos_movil {
     }
 
     .contenedor-imagen {
-        margin-top: -95vw;
+        margin-top: -80vw;
     }
 
     .contenedor-inicio {
@@ -489,7 +501,7 @@ p.juego {
     .contenedor-inicio-juegos {
         margin-top: -40vw;
         overflow: hidden;
-        z-index: 1;
+        display: block;
     }
 
     .img-inicio-juegos {
@@ -501,8 +513,9 @@ p.juego {
         top: 50%;
         left: 50%;
         width: 76vw;
+        z-index: 1;
+        display: block;
         transform: translate(-50%, -50%);
-        z-index: 2;
     }
 
     p.juego {
