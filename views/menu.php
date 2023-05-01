@@ -58,12 +58,12 @@
                 </li>
             </ul>
             <div class="redes">
-                <i class="redes_menu bi bi-instagram <?php echo ($view != 'tercon' && $view != 'polpri' ? 'blanco' : 'rojo'); ?>"></i>
-                <i class="redes_menu bi bi-tiktok red <?php echo ($view != 'tercon' && $view != 'polpri'  ? 'blanco' : 'rojo'); ?>"></i>
-                <i class="redes_menu bi bi-twitter <?php echo ($view != 'tercon' && $view != 'polpri'  ? 'blanco' : 'rojo'); ?>"></i>
+                <i class="redes_menu bi bi-instagram <?php echo ($view == 'home' ? 'blanco' : 'rojo'); ?>"></i>
+                <i class="redes_menu bi bi-tiktok red <?php echo ($view == 'home'  ? 'blanco' : 'rojo'); ?>"></i>
+                <i class="redes_menu bi bi-twitter <?php echo ($view == 'home' ? 'blanco' : 'rojo'); ?>"></i>
             </div>
 
-            <button type="button" class="btn btn-outline-light descarga-bnt <?php echo ($view != 'tercon' && $view != 'polpri'  ? 'blanco' : 'rojo'); ?>" id="des-bnt-menu<?php echo ($view != 'tercon' && $view != 'polpri'  ? '-blanco' : '-rojo'); ?>">Descargar</button>
+            <button type="button" class="btn btn-outline-light descarga-bnt <?php echo ($view == 'home' ? 'blanco' : 'rojo'); ?>" id="des-bnt-menu<?php echo ($view == 'home' ? '-blanco' : '-rojo'); ?>">Descargar</button>
         </div>
     </div>
 </nav>
