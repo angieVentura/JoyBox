@@ -303,6 +303,13 @@ img.juegos_movil {
     .contenedor-inicio {
         transform: translate(-2%, -40%);
     }
+    .contenedor-imagen {
+        display: flex;
+        margin-left: -8vw;
+        margin-top: -20vw;
+        overflow: hidden;
+        z-index: 3;
+    }
 }
 
 @media (max-width: 420px) {
