@@ -837,10 +837,11 @@ div#redes-ar {
 }
 /* SOBRE NOSOTROS  */
 .titulosn{
-    text-align: justify;
+    text-align: justify;    
     margin-bottom: 10px;
     color: var(--rojoClaro); 
     font-weight: 700;
+    font-size: 1em;
 }
 
 
@@ -849,6 +850,7 @@ div#redes-ar {
     margin-bottom: 10px;
     color: var(--negro); 
     font-weight: 700;
+    font-size: 1em;
 }
 
 .textossn{
@@ -856,6 +858,7 @@ div#redes-ar {
     letter-spacing: 1px; 
     margin-bottom: 10px;
     font-size: 20px;
+    font-size: 1em;
 }
 
 .colorin{
@@ -866,6 +869,7 @@ div#redes-ar {
   width: 500px; 
   margin-right: 100px;
   flex-wrap: wrap;
+  margin-top: 70px;
 }
 
 .sn .container-fluid-2{
@@ -876,11 +880,17 @@ div#redes-ar {
 }
 
 .container-fluid-3{
-    width: 500px; 
-    margin: 0 auto; 
-    flex-wrap: wrap;
     margin-top: 70px;
+    width: 50%; /* Opcional, ajusta el ancho del div según tus necesidades */
+    margin: 0 auto; /* Establece los márgenes superior e inferior a 0 y el margen lateral a "auto" */
 }
+.container-fluid-3 .titulosn{
+   
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .container-fluid-team{
     max-width: 1200px;
