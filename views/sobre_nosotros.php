@@ -31,10 +31,10 @@
 
   <!-- Tarjeta Angie -->
   <div class="teams">
-    <img src="" alt="">
+    <img src="img\angie_sn.png" alt="">
     <div class="nombre">Angie Ventura</div>
     <div class="puesto">Project Manager</div>
-    <div class="texto"> texto texto texto </div>
+    <div class="texto">Le gusta mantener las cosas organizadas casi tanto como programar. Intenta aprender todo lo que pueda relacionado al campo de la programación. Lenguajes y herramientas: HTML, CSS, JavaScript, PHP, SQL, Kotlin, Java, Python, C#, LaTex, Figma, Git, Trello y Notion. </div>
 
     <div class="redes-sociales">
       <a href="https://www.instagram.com/vnt.angie/"><i class="bi bi-instagram"></i></a>
@@ -44,23 +44,23 @@
 
   <!-- Tarjeta Gabriel -->
   <div class="teams">
-    <img src="" alt="">
+    <img src="img\gabriel_sn.png" alt="">
     <div class="nombre">Gabriel Valera</div>
-    <div class="puesto">Programador</div>
-    <div class="texto"> texto texto texto </div>
+    <div class="puesto">Desarrollador/programador</div>
+    <div class="texto">Integrante del equipo que programo los juegos y la aplicación, ¡Que esperas para descargar JoyBox!</div>
 
     <div class="redes-sociales">
-      <a href=""><i class="bi bi-instagram"></i></a>
+      <a href="https://www.instagram.com/leomessi/"><i class="bi bi-instagram"></i></a>
       <a href="https://github.com/terco89"><i class="bi bi-github"></i></a>
     </div>
   </div>
 
   <!-- Tarjeta Gaspar -->
   <div class="teams">
-    <img src="" alt="">
+    <img src="img\Gaspar_sn.png" alt="">
     <div class="nombre">Gaspar Kappou</div>
-    <div class="puesto">Programador</div>
-    <div class="texto"> texto texto texto </div>
+    <div class="puesto">Desarrollador/programador</div>
+    <div class="texto">Buena gente pero odia a las personas, le gusta programar y el helado. Dificil que te caiga mal. </div>
 
     <div class="redes-sociales">
       <a href="https://www.instagram.com/gask_ppou/"><i class="bi bi-instagram"></i></a>
@@ -70,10 +70,10 @@
 
   <!-- Tarjeta Luis -->
   <div class="teams">
-    <img src="" alt="">
+    <img src="img\luis_sn.png" alt="">
     <div class="nombre">Luis Oviedo</div>
     <div class="puesto">Analista de sistemas</div>
-    <div class="texto"> texto texto texto </div>
+    <div class="texto">Individuo que realizara de cualquier manera tarea que se le proponga sepa o no hacerla , no sabe usar CSS y su peor enemigo es su conformismo</div>
 
     <div class="redes-sociales">
       <a href="https://www.instagram.com/_luishi15_/"><i class="bi bi-instagram"></i></a>
@@ -83,10 +83,10 @@
 
   <!-- Tarjeta Tamara -->
   <div class="teams">
-    <img src="" alt="">
+    <img src="img\tamara_sn.png" alt="">
     <div class="nombre">Tamara Rojas</div>
-    <div class="puesto">Diseñadora</div>
-    <div class="texto"> texto texto texto </div>
+    <div class="puesto">Diseñador</div>
+    <div class="texto">Intento de diseñador, amante de los canelones de acelga, fiel seguidora de Erwin Smith, dueña de dos gatos y propietaria de una casa en playas bolivianas.</div>
 
     <div class="redes-sociales">
       <a href="https://www.instagram.com/tamaradragonbolas/"><i class="bi bi-instagram"></i></a>
@@ -96,10 +96,10 @@
 
   <!-- Tarjeta Momias -->
   <div class="teams">
-    <img src="" alt="">
+    <img src="img\tobi_sn.png" alt="">
     <div class="nombre">Tobias Coman</div>
     <div class="puesto">Administrador de base de datos</div>
-    <div class="texto"> texto texto texto </div>
+    <div class="texto">Puede que entregue las tareas tarde pero es buena gente, le gusta programar; es por eso que entró a la suiza y es un amante total de los perros (odia a los pelados) (no tiene enemigos)</div>
 
     <div class="redes-sociales">
       <a href="https://www.instagram.com/comanporfavor/"><i class="bi bi-instagram"></i></a>
