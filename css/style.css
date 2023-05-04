@@ -925,6 +925,20 @@ div#redes-ar {
 
 /* CONTACTO */
 
+.caja-principal-contacto{
+
+    outline: red dashed 1px;
+
+    height: 1500px;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
 .caja-negra-gris{
 
     outline: red dashed 1px;
@@ -959,7 +973,7 @@ div#redes-ar {
 
 }
 
-.macnha-carta{
+.mancha-carta{
 
     outline: red dashed 1px;
 
@@ -968,7 +982,7 @@ div#redes-ar {
     border-radius: 25px;
 
     display: flex;
-    margin: 0px 0px 60px 180px;
+    margin: 0px 0px 60px 0px;
     justify-content: center;
     align-items: center;
     
@@ -998,4 +1012,3 @@ div#redes-ar {
     background-repeat: no-repeat;
 
 }
-
