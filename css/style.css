@@ -922,3 +922,80 @@ div#redes-ar {
 
     }
 }
+
+/* CONTACTO */
+
+.caja-negra-gris{
+
+    outline: red dashed 1px;
+
+    width: 800px;
+    height: 500px;
+    background-color: #A6A6A6;
+    border-radius: 25px;
+
+    display: flex;
+    margin: 0px 0px 60px 180px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.caja-negra-gris .gris{
+
+    outline: red dashed 1px;
+
+    width: 785px;
+    height: 485px;
+    background-color: #D9D9D9;
+    border-radius: 25px;
+
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.macnha-carta{
+
+    outline: red dashed 1px;
+
+    width: 800px;
+    height: 500px;
+    border-radius: 25px;
+
+    display: flex;
+    margin: 0px 0px 60px 180px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.tituloC{
+    outline: red dashed 1px;
+
+    text-align: justify;
+    width: 200px;
+    margin: 0px 0px 20px 190px;
+    color: var(--rojoClaro);
+    font-weight: 650;
+    font-size: 1.9em;
+
+}
+
+.mancha-gris{
+    outline: rgb(5, 255, 5) dashed 1px;
+
+    width: 900px;
+    height: 800px;
+    background-size: 690px 820px;
+    background-position: -200px -15px;
+    background-image: url('../img/manchaGris.png');
+    background-repeat: no-repeat;
+
+}
+
