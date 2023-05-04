@@ -37,8 +37,8 @@
     <div class="texto">Le gusta mantener las cosas organizadas casi tanto como programar. Intenta aprender todo lo que pueda relacionado al campo de la programación. Lenguajes y herramientas: HTML, CSS, JavaScript, PHP, SQL, Kotlin, Java, Python, C#, LaTex, Figma, Git, Trello y Notion. </div>
 
     <div class="redes-sociales">
-      <a href="https://www.instagram.com/vnt.angie/"><i class="bi bi-instagram"></i></a>
-      <a href="https://github.com/angieVentura"><i class="bi bi-github"></i></a>
+      <a href="https://www.instagram.com/vnt.angie/" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a href="https://github.com/angieVentura" target="_blank"><i class="bi bi-github"></i></a>
     </div>
   </div>
 
@@ -50,8 +50,8 @@
     <div class="texto">Integrante del equipo que programo los juegos y la aplicación, ¡Que esperas para descargar JoyBox!</div>
 
     <div class="redes-sociales">
-      <a href="https://www.instagram.com/leomessi/"><i class="bi bi-instagram"></i></a>
-      <a href="https://github.com/terco89"><i class="bi bi-github"></i></a>
+      <a href="https://www.instagram.com/leomessi/" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a href="https://github.com/terco89" target="_blank"><i class="bi bi-github"></i></a>
     </div>
   </div>
 
@@ -63,8 +63,8 @@
     <div class="texto">Buena gente pero odia a las personas, le gusta programar y el helado. Dificil que te caiga mal. </div>
 
     <div class="redes-sociales">
-      <a href="https://www.instagram.com/gask_ppou/"><i class="bi bi-instagram"></i></a>
-      <a href="https://github.com/MamushkaDead"><i class="bi bi-github"></i></a>
+      <a href="https://www.instagram.com/gask_ppou/" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a href="https://github.com/MamushkaDead" target="_blank"><i class="bi bi-github"></i></a>
     </div>
   </div>
 
@@ -76,8 +76,8 @@
     <div class="texto">Individuo que realizara de cualquier manera tarea que se le proponga sepa o no hacerla , no sabe usar CSS y su peor enemigo es su conformismo</div>
 
     <div class="redes-sociales">
-      <a href="https://www.instagram.com/_luishi15_/"><i class="bi bi-instagram"></i></a>
-      <a href="https://github.com/luishi1"><i class="bi bi-github"></i></a>
+      <a href="https://www.instagram.com/_luishi15_/" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a href="https://github.com/luishi1" target="_blank"><i class="bi bi-github"></i></a>
     </div>
   </div>
 
@@ -89,8 +89,8 @@
     <div class="texto">Intento de diseñador, amante de los canelones de acelga, fiel seguidora de Erwin Smith, dueña de dos gatos y propietaria de una casa en playas bolivianas.</div>
 
     <div class="redes-sociales">
-      <a href="https://www.instagram.com/tamaradragonbolas/"><i class="bi bi-instagram"></i></a>
-      <a href="https://github.com/rojastamaraa"><i class="bi bi-github"></i></a>
+      <a href="https://www.instagram.com/tamaradragonbolas/" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a href="https://github.com/rojastamaraa" target="_blank"><i class="bi bi-github"></i></a>
     </div>
   </div>
 
@@ -102,8 +102,8 @@
     <div class="texto">Puede que entregue las tareas tarde pero es buena gente, le gusta programar; es por eso que entró a la suiza y es un amante total de los perros (odia a los pelados) (no tiene enemigos)</div>
 
     <div class="redes-sociales">
-      <a href="https://www.instagram.com/comanporfavor/"><i class="bi bi-instagram"></i></a>
-      <a href="https://github.com/TobiTobiT0bi"><i class="bi bi-github"></i></a>
+      <a href="https://www.instagram.com/comanporfavor/" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a href="https://github.com/TobiTobiT0bi" target="_blank"><i class="bi bi-github"></i></a>
     </div>
   </div>
 </div>
