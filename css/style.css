@@ -32,12 +32,25 @@ img.n_logo {
     display: flex;
 }
 
+a.blanco{
+    color: var(--blanco);
+}
+
+a.rojo{
+    color: var(--rojoClaro);
+}
+
+.no_tocar{
+    margin-right: 11px;
+    font-size: 22px;
+}
 
 i.redes_menu.bi.bi-tiktok.red,
 i.redes_menu.bi.bi-instagram,
 i.redes_menu.bi.bi-twitter {
     margin-right: 11px;
     font-size: 22px;
+    color: var(--blanco);
 }
 
 i.redes_menu.bi.bi-tiktok.red.blanco,

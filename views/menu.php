@@ -58,9 +58,9 @@
                 </li>
             </ul>
             <div class="redes">
-                <i class="redes_menu bi bi-instagram <?php echo ($view == 'home' ? 'blanco' : 'rojo'); ?>"></i>
-                <i class="redes_menu bi bi-tiktok red <?php echo ($view == 'home'  ? 'blanco' : 'rojo'); ?>"></i>
-                <i class="redes_menu bi bi-twitter <?php echo ($view == 'home' ? 'blanco' : 'rojo'); ?>"></i>
+                <a href="https://matias.ma/nsfw/" target="_blank" class="no_tocar redes_menu bi bi-instagram <?php echo ($view == 'home' ? 'blanco' : 'rojo'); ?>"></a>
+                <a href="https://www.tiktok.com/@gamewise_et26?lang=es" target="_blank" class="no_tocar redes_menu bi bi-tiktok red <?php echo ($view == 'home'  ? 'blanco' : 'rojo'); ?>"></a>
+                <a href="https://twitter.com/GameWise_et26" target="_blank" class="no_tocar redes_menu bi bi-twitter <?php echo ($view == 'home' ? 'blanco' : 'rojo'); ?>"></a>
             </div>
 
             <button type="button" class="btn btn-outline-light descarga-bnt <?php echo ($view == 'home' ? 'blanco' : 'rojo'); ?>" id="des-bnt-menu<?php echo ($view == 'home' ? '-blanco' : '-rojo'); ?>">Descargar</button>
