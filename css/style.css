@@ -17,7 +17,7 @@ body {
 
 
 
-/*menu*/
+/*MENU*/
 
 img.logo {
     width: 45px;
@@ -492,6 +492,7 @@ p.juego {
 .movil {
     display: none;
 }
+
 .web {
     display: flex;
 }
@@ -977,7 +978,7 @@ div#redes-ar {
     bottom: 0;
     left: 0;
     padding-left: 2%;
- 
+
 }
 
 .redes-sociales .bi.bi-github {
@@ -992,4 +993,4 @@ div#redes-ar {
     background-color: #f75e74;
     background-size: cover;
     background-position: center;
-  }
+}
