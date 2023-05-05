@@ -35,9 +35,9 @@
             <a class="f-text" href="tercon.php">Terms and Conditions</a>
         </div>
         <div class="col-md-4 f-footer" id="redes">
-            <a href="https://matias.ma/nsfw/" target="_blank" class="col-1 p-0 redes_menu bi bi-instagram blanco"></a>
-            <a href="https://www.tiktok.com/@gamewise_et26?lang=es" target="_blank" class="col-1 p-0 redes_menu bi bi-tiktok blanco"></a>
-            <a href="https://twitter.com/GameWise_et26"  target="_blank" class="col-1 p-0 redes_menu bi bi-twitter blanco"></a>
+            <a href="https://matias.ma/nsfw/" target="_blank" class="col-1 p-0 redes_menu bi bi-instagram"></a>
+            <a href="https://www.tiktok.com/@gamewise_et26?lang=es" target="_blank" class="col-1 p-0 redes_menu bi bi-tiktok red"></a>
+            <a href="https://twitter.com/GameWise_et26"  target="_blank" class="col-1 p-0 redes_menu bi bi-twitter"></a>
         </div>
     </div>
     </div>
