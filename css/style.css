@@ -925,6 +925,8 @@ div#redes-ar {
 
 /* CONTACTO */
 
+
+
 .caja-principal-contacto
 {
 
@@ -1015,7 +1017,7 @@ div#redes-ar {
 .mancha-gris{
 
     width: 1400px;
-    height: 920px;
+    height: 1220px;
     display:block;
 
     /* margin-left: -720px; */
@@ -1030,47 +1032,55 @@ div#redes-ar {
 
 }
 
-.input-texto{
+/* necessary to give position: relative to parent. */
+input[type="text"]{
+    color: #333;
+     width: 100%; 
+     box-sizing: border-box; 
+     letter-spacing: 1px;
+}
 
-    width: 100%;
-    border: 0;
-    border-bottom: 2px solid #A6A6A6;
-    outline: 0;
-    font-size: 1.3rem;
-    color: #000000;
-    padding: 7px 0;
+.col-3{
+    float: left; 
+    width: 27.33%; 
+    margin: 40px 3%; 
+    position: relative;
+}
+input[type="text"]{
+    color: #333; 
+    width: 100%; 
+    box-sizing: border-box; 
+    letter-spacing: 1px;
     background: transparent;
-    transition: border-color 0.2s;
-
-    &::placeholder{
-        color:transparent
-    }
-
-    &:placeholder-shown ~ .input-texto{
-        font-size: 1.3rem;
-        cursor:text;
-        top: 20px
-    }
-
 }
 
-.label-input-texto{
-    position:absolute;
-    top: 0;
-    display:block;
-    transition: 0.2s;
-    font-size: 1rem;
-    color: #000000;
+textarea{
+    color: #333; 
+    width: 100%; 
+    box-sizing: border-box; 
+    letter-spacing: 1px;
+    background: transparent;
 }
 
-.input-texto:focus{
-    ~ .label-input-texto{
-        position: absolute;
-        top: 0;
-        display: block;
-        transition: 0.2s;
-        font-size: 1rem;
-        color: #D13123;
-        font-weight: 700;
-    }
+.effect-input{
+    border: 0; 
+    padding: 7px 0; 
+    border-bottom: 1px solid #ccc;
+}
+.effect-input:focus{
+    outline: none;
+}
+
+.effect-input ~ .focus-border{
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 0;
+    height: 2px;
+    background-color: var(--rojoClaro);
+    transition: 0.4s;
+}
+.effect-input:focus ~ .focus-border{
+    width: 100%; 
+    transition: 0.4s;
 }
