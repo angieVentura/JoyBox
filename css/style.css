@@ -875,7 +875,7 @@ div#redes-ar {
     .sn {
         margin-top: 120px;
     }
-   
+
 }
 
 @media (min-width: 1250px) {
@@ -886,7 +886,7 @@ div#redes-ar {
 
     .sn .container-fluid-2 {
         width: 1150px;
-        margin-left: 0px; 
+        margin-left: 0px;
         flex-wrap: wrap;
         margin-top: 70px;
     }
@@ -894,7 +894,7 @@ div#redes-ar {
     .sn .container-fluid {
         width: 1150px;
         padding: 0;
-        margin-right: 0px; 
+        margin-right: 0px;
         flex-wrap: wrap;
         margin-top: 70px;
     }
@@ -908,7 +908,7 @@ div#redes-ar {
 
     .sn .container-fluid-2 {
         width: 1250px;
-        margin-left: 0px; 
+        margin-left: 0px;
         flex-wrap: wrap;
         margin-top: 70px;
     }
@@ -916,7 +916,7 @@ div#redes-ar {
     .sn .container-fluid {
         width: 1250px;
         padding: 0;
-        margin-right: 0px; 
+        margin-right: 0px;
         flex-wrap: wrap;
         margin-top: 70px;
     }
@@ -930,7 +930,7 @@ div#redes-ar {
 
     .sn .container-fluid-2 {
         width: 1450px;
-        margin-left: 0px; 
+        margin-left: 0px;
         flex-wrap: wrap;
         margin-top: 70px;
     }
@@ -938,7 +938,7 @@ div#redes-ar {
     .sn .container-fluid {
         width: 1450px;
         padding: 0;
-        margin-right: 0px; 
+        margin-right: 0px;
         flex-wrap: wrap;
         margin-top: 70px;
     }
@@ -998,8 +998,7 @@ div#redes-ar {
 
 
 
-.caja-principal-contacto
-{
+.caja-principal-contacto {
 
     height: 1000px;
     border-radius: 25px;
@@ -1009,19 +1008,18 @@ div#redes-ar {
     align-items: center;
 
     background: url(../img/manchaNegraCarta.png) no-repeat right;
-    
+
     background-size: 40%;
     overflow: hidden;
 
 }
 
-.caja-negra-gris{
+.caja-negra-gris {
 
     width: 800px;
     height: 500px;
     background-color: #A6A6A6;
     border-radius: 25px;
-
     display: flex;
     position: relative;
     left: 315px;
@@ -1029,11 +1027,10 @@ div#redes-ar {
     margin: 0px 0px 60px 180px;
     justify-content: center;
     align-items: center;
-    
 
 }
 
-.caja-negra-gris .gris{
+.caja-negra-gris .gris {
 
     width: 785px;
     height: 485px;
@@ -1044,7 +1041,7 @@ div#redes-ar {
     margin: 0px 0px 0px 0px;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 
@@ -1071,7 +1068,7 @@ div#redes-ar {
 }
 */
 
-.tituloC{
+.tituloC {
 
     text-align: justify;
     width: 200px;
@@ -1085,11 +1082,11 @@ div#redes-ar {
 
 }
 
-.mancha-gris{
+.mancha-gris {
 
     width: 1400px;
     height: 1220px;
-    display:block;
+    display: block;
 
     /* margin-left: -720px; */
     margin-right: 1600px;
@@ -1104,54 +1101,118 @@ div#redes-ar {
 }
 
 /* necessary to give position: relative to parent. */
-input[type="text"]{
+input[type="text"] {
     color: #333;
-     width: 100%; 
-     box-sizing: border-box; 
-     letter-spacing: 1px;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
 }
 
-.col-3{
-    float: left; 
-    width: 27.33%; 
-    margin: 40px 3%; 
+.col-3 {
+    float: left;
+    width: 27.33%;
+    margin: 40px 3%;
     position: relative;
 }
-input[type="text"]{
-    color: #333; 
-    width: 100%; 
-    box-sizing: border-box; 
+
+input[type="text"] {
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
     letter-spacing: 1px;
     background: transparent;
 }
 
-textarea{
-    color: #333; 
-    width: 100%; 
-    box-sizing: border-box; 
+textarea {
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
     letter-spacing: 1px;
     background: transparent;
 }
 
-.effect-input{
-    border: 0; 
-    padding: 7px 0; 
+.effect-input {
+    border: 0;
+    padding: 7px 0;
     border-bottom: 1px solid #ccc;
 }
-.effect-input:focus{
+
+.effect-input:focus {
     outline: none;
 }
 
-.effect-input ~ .focus-border{
-    position: absolute; 
-    bottom: 0; 
-    left: 0; 
+.effect-input~.focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 0;
     height: 2px;
     background-color: var(--rojoClaro);
     transition: 0.4s;
 }
-.effect-input:focus ~ .focus-border{
-    width: 100%; 
+
+.effect-input:focus~.focus-border {
+    width: 100%;
     transition: 0.4s;
+}
+
+@media (max-width: 1638px) {
+    .caja-negra-gris {
+        width: 700px;
+        height: 400px;
+        left: 349px;
+        top: 284px;
+        margin: 0px 0px 60px 180px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caja-negra-gris .gris {
+        width: 685px;
+        height: 385px;
+        background-color: #D9D9D9;
+        border-radius: 25px;
+        display: flex;
+        margin: 0px 0px 0px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tituloC {
+        left: 343px;
+        top: 250px;
+    }
+}
+
+@media (max-width: 1462px) {
+
+    .tituloC {
+        left: 407px;
+    }
+
+    .caja-negra-gris {
+        left: 411px;
+    }
+
+}
+
+@media (max-width: 1370px) {
+
+    .tituloC {
+        left: 445px;
+        top: 346px;
+    }
+
+    .caja-negra-gris {
+        width: 600px;
+        height: 300px;
+        left: 440px;
+        top: 375px;
+    }    
+
+    .caja-negra-gris .gris {
+        width: 585px;
+        height: 285px;
+    }
+
 }
