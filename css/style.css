@@ -996,7 +996,16 @@ div#redes-ar {
 
 /* CONTACTO */
 
+form{
+    margin-left:20px;
+}
 
+.form{
+    display: grid;
+    width: 500px;
+    width:100%;
+    height:100%;
+}
 
 .caja-principal-contacto {
 
@@ -1086,7 +1095,6 @@ div#redes-ar {
 
     width: 1400px;
     height: 1220px;
-    display: block;
 
     /* margin-left: -720px; */
     margin-right: 1600px;
@@ -1100,7 +1108,6 @@ div#redes-ar {
 
 }
 
-/* necessary to give position: relative to parent. */
 input[type="text"] {
     color: #333;
     width: 100%;
@@ -1110,9 +1117,16 @@ input[type="text"] {
 
 .col-3 {
     float: left;
-    width: 27.33%;
-    margin: 40px 3%;
+    width: 100%;
     position: relative;
+}
+
+.col-3.first{
+    margin-top:20px
+}
+
+.col-3.area{
+    height: 70%;
 }
 
 input[type="text"] {
@@ -1123,12 +1137,14 @@ input[type="text"] {
     background: transparent;
 }
 
-textarea {
+textarea{
     color: #333;
     width: 100%;
     box-sizing: border-box;
     letter-spacing: 1px;
     background: transparent;
+    height: 100%;
+    resize: none;
 }
 
 .effect-input {
@@ -1162,6 +1178,7 @@ textarea {
         height: 400px;
         left: 349px;
         top: 284px;
+        display: flex;
         margin: 0px 0px 60px 180px;
         justify-content: center;
         align-items: center;
@@ -1215,4 +1232,44 @@ textarea {
         height: 285px;
     }
 
+}
+
+@media (max-width: 1163px) {
+
+    .caja-principal-contacto{
+        background-image: none;
+    }
+
+    .mancha-gris{
+        align-self: auto;
+        margin-right: 1060px;
+        background-size: contain;
+    }
+}
+
+@media (max-width: 1371px) {
+    .mancha-gris{      
+        margin-right: 0px;
+    }
+    .caja-negra-gris {
+        margin-left: -120px;
+    }
+    .tituloC {
+        left: 445px;
+        top: 346px;
+        margin-left: -110px;
+    }
+}
+@media (max-width: 924px) {
+    .mancha-gris{      
+        margin-right: 0px;
+    }
+    .caja-negra-gris {
+        margin-left: -120px;
+    }
+    .tituloC {
+        left: 445px;
+        top: 346px;
+        margin-left: -110px;
+    }
 }
