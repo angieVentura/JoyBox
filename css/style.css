@@ -1102,3 +1102,11 @@ textarea {
         margin-top: 50px;
     }
 }
+
+@media (max-width: 870px){
+    .cont-bckg {
+        background-image: none;
+        padding: 15%;
+        margin-top: 50px;
+    }
+}
