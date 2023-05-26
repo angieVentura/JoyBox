@@ -271,7 +271,7 @@ img.mancha-roja {
     left: 50%;
 }
 
-.Fcol-inicio {
+.contenedor-inicio {
     display: flex;
     position: relative;
     margin-top: -41vw;
