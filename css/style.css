@@ -1110,3 +1110,85 @@ textarea {
         margin-top: 50px;
     }
 }
+
+/*puntaje*/
+
+.meyor{
+    margin-bottom: 20px;
+    color: var(--rojoClaro);
+    font-weight: 900;
+}
+
+.superior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.peligro{
+    height: 40px;
+    border-radius: 8px;
+    box-shadow: 4px 4px #b62424;
+    font-weight: 700; 
+}
+
+.peligro:hover{
+    background-color: var(--rojoClaro);
+    opacity: 70%;
+}
+
+button.btn.btn-danger.dropdown-toggle.peligro.show{
+    box-shadow: 4px 4px #b62424;
+}
+
+.con{
+    margin-top: 20px;
+}
+
+@media (max-width: 995px){
+    .con {
+        margin-top: 80px;
+    }
+}
+
+.table {
+    font: 100%/30px 'Helvetica Neue', helvetica, arial, sans-serif;
+	border-collapse: separate;	
+	text-align: left;
+    margin-bottom: 80px;
+}	
+
+.table th {
+	background-color: var(--rojoClaro);	
+    opacity: 50%;
+	color: #fff;
+}
+
+td {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #e8e8e8;
+	transition: all 300ms;
+}
+
+tbody tr:nth-child(2n) {
+    background:#ff333311;
+  }
+
+tbody:hover .inf {
+	color: transparent;
+	text-shadow: 0 0 3px #aaa;
+}
+
+tbody:hover tr:hover td {
+	color: #444;
+}
+
+.nro {
+    text-align-last: center;
+    color: #444;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 1px 1px var(--rojoClaro);
+}
+  

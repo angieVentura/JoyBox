@@ -18,6 +18,9 @@
                     <a class="nav-link <?php echo ($view == "sobre_nosotros" ? "activo" : "no-activo"); ?>" aria-current="page" href="sobre_nosotros.php">Sobre Nosotros</a>
                 </li>
                 <li class="nav-item ">
+                    <a class="nav-link <?php echo ($view == "ranking" ? "activo" : "no-activo"); ?>" aria-current="page" href="ranking.php">Ranking</a>
+                </li>
+                <li class="nav-item ">
                     <a class="nav-link <?php echo ($view == "contacto" ? "activo" : "no-activo"); ?>" aria-current="page" href="contacto.php">Contacto</a>
                 </li>
             </ul>
