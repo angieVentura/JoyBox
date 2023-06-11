@@ -1,36 +1,36 @@
-<div class="sn">
-  <div class="container-fluid-2">
-    <h1 class="titulosn">SOMOS GAMEWISE</h1>
+<div class="container contsb">
+  <div class="informacionsb">
+    <h1>Somos Gamewise</h1>
     <p class="textossn">Una empresa de desarrollo de videojuegos
       que cuenta con un equipo de trabajo que
-      trabaja duro para crear los <span class="colorin"> mejores juegos </span>
+      trabaja duro para crear los <b><span class="colorin"> mejores juegos </span></b>
       de alta calidad, cautivadores y para todo
-      publico </p>
+      publico
+    </p>
   </div>
-
-  <div class="container-fluid">
-    <h1 class="titulosn2">NUESTRO SERVICIO</h1>
+  <div class="informacionsb2">
+    <h2 class="h22h">Nuestro servicio</h2>
     <p class="textossn">Ofrecemos nuestra nueva aplicación
-      de videojuegos en línea <span class="colorin"> JoyBox </span> . Un servicio donde podrás jugar solo o con tus amigos ,
-      crear comunidades , hablar por chat y un montón de cosas mas</p>
+      de videojuegos en línea <b><span class="colorin"> JoyBox </span></b>.
+      Un servicio donde podrás jugar solo o con tus amigos ,
+      crear comunidades , hablar por chat y un montón de cosas mas
+    </p>
   </div>
-
-
-  <div class="container-fluid-2">
-    <h1 class="titulosn2">NUESTRO OBJETIVO</h1>
+  <div class="informacionsb3">
+    <h2 class="h2h">Nuestro objetivo</h2>
     <p class="textossn">Ofrecer entretenimiento y diversión a nuestros usuarios a través de pequeñas experiencias de juegos sencillos
       y divertidos, sin una historia larga y tediosa, como los clásicos videojuegos casuales .
-      Por que con <span class="colorin"> JoyBox </span> tenes el camino mas corto hacia la diversion</p>
+      Por que con <b><span class="colorin"> JoyBox </span></b> tenes el camino mas corto hacia la diversion</p>
   </div>
 
-  <div class="container-fluid-3">
-    <h1 class="titulosn">CONOCE AL EQUIPO</h1>
-  </div>
+</div>
+<div class="container-fluid-3">
+  <h1 class="titulosn">CONOCE AL EQUIPO</h1>
 </div>
 <div class="container-fluid-team">
 
   <!-- Tarjeta Angie -->
-  <div class="teams">
+  <div class="teams teamnegro">
     <img src="img\angie_sn.png" alt="">
     <div class="nombre">Angie Ventura</div>
     <div class="puesto">Project Manager</div>
@@ -56,7 +56,7 @@
   </div>
 
   <!-- Tarjeta Gaspar -->
-  <div class="teams">
+  <div class="teams teamnegro">
     <img src="img\Gaspar_sn.png" alt="">
     <div class="nombre">Gaspar Kappou</div>
     <div class="puesto">Desarrollador/programador</div>
@@ -82,7 +82,7 @@
   </div>
 
   <!-- Tarjeta Tamara -->
-  <div class="teams">
+  <div class="teams teamnegro">
     <img src="img\tamara_sn.png" alt="">
     <div class="nombre">Tamara Rojas</div>
     <div class="puesto">Diseñador</div>
@@ -107,5 +107,4 @@
     </div>
   </div>
 </div>
-
 </div>
