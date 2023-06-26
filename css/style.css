@@ -814,16 +814,18 @@ div#redes-ar {
 
 .teams {
     position: relative;
-    margin: 20px;
+    margin: 30px;
     padding: 15px;
     width: 290px;
     cursor: pointer;
     box-sizing: border-box;
-    background-color: var(--grisClaro);
-    box-shadow: 6px 8px 2px rgba(128, 128, 128, 0.521);
-    border-radius: 15px;
+    border-radius: 10px;
+    box-shadow: 6px 8px 2px var(--grisClaro);
     transition: transform 0.3s ease;
+}
 
+.ss{
+    border: 1px solid var(--grisClaro);
 }
 
 .teamnegro {
@@ -851,7 +853,6 @@ div#redes-ar {
 }
 
 .nombre {
-    margin-top: 10px;
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
@@ -1215,46 +1216,49 @@ tbody:hover tr:hover td {
 
 /*SOBRE NOSOTROS*/
 
-.informacionsb,
-.informacionsb3 {
-    width: 56%;
-    float: left;
-    padding: 50px;
+.coll1,
+.coll3{
     background: var(--negro);
     border-radius: 50px;
     color: var(--blanco);
+    padding: 60px;
+    margin: 20px;
+    height: 400px;
+    min-width: 400px;
 }
 
-.informacionsb3 {
-    margin-bottom: 70px;
-}
-
-.informacionsb2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 56%;
-    float: right;
-    padding: 50px;
-    text-align: right;
+.coll2{
     background: var(--grisClaro);
     border-radius: 50px;
+    padding: 70px;
+    margin-top: 100px;
+    height: 400px;
+    min-width: 400px;
 }
 
-.informacionsb h1 {
+.coll1 h1 {
     margin-bottom: 20px;
     font-size: 35px;
     font-weight: 900;
     color: var(--blanco);
 }
 
-@media (max-width: 1000px) {
+.raw{
+    margin-bottom: 100px;
+}
 
-    .informacionsb,
-    .informacionsb2,
-    .informacionsb3 {
-        float: none;
-        width: 100%;
-        text-align: center;
+@media (max-width: 1399px) {
+
+    .coll2 {
+        margin-top: 0;
+        margin: 20px;
+    }
+
+    .coll1,
+    .coll3,
+    .coll2{
+        height: auto;
+        padding: 80px;
     }
 }
 
@@ -1270,4 +1274,30 @@ tbody:hover tr:hover td {
     font-size: 25px;
     font-weight: 900;
     color: var(--negro);
+}
+
+.teams img{
+    margin-bottom: 10px;
+}
+
+.part-sup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.linea{
+    height: 1px;
+    width: 100%;
+    background-color: var(--blanco);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.linean{
+    height: 1px;
+    width: 100%;
+    background-color: var(--negro);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
