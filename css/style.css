@@ -1180,8 +1180,8 @@ button.btn.btn-danger.dropdown-toggle.peligro.show {
 }
 
 .table th {
-    background-color: var(--rojoClaro);
-    opacity: 50%;
+    background-color: var(--negro);
+    opacity: 80%;
     color: #fff;
 }
 
@@ -1194,7 +1194,7 @@ td {
 }
 
 tbody tr:nth-child(2n) {
-    background: #ff333311;
+    background: #1e1d1b17;
 }
 
 tbody:hover .inf {
