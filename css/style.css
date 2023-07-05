@@ -1017,26 +1017,38 @@ div#redes-ar {
 
 /* CONTACTO */
 
+.coco{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.container-sm{
+    background: url(../img/contacto.png);
+    height: 600px;
+    max-width: 1100px;
+    box-shadow: 8px 5px 15px 4px var(--grisClaro);
+}
+
 input[type="text"] {
-    color: #333;
+    background-color: rgba(190, 200, 210, 0.336);
+    font-size: 12px;
     width: 100%;
-    box-sizing: border-box;
-    letter-spacing: 1px;
-    background: transparent;
+}
+
+.labin{
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 5px;
 }
 
 textarea {
-    color: #333;
+    background-color: rgba(190, 200, 210, 0.336);
+    font-size: 12px;
     width: 100%;
-    box-sizing: border-box;
-    letter-spacing: 1px;
-    background: transparent;
 }
 
 .effect-input {
     border: 0;
-    padding: 7px 0;
-    border-bottom: 1px solid #ccc;
+    padding: 10px;
 }
 
 .effect-input:focus {
@@ -1058,6 +1070,219 @@ textarea {
     transition: 0.4s;
 }
 
+.manolito{
+    background: url(../img/sentadomanolo.png);
+    background-size: 100%;
+    width: 60px;
+    height: 70px;
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 160px;
+}
+
+@media (max-width: 1350px) {
+    .manolito{
+        background: url(../img/paradomanolo.png);
+        background-size: 100%;
+        width: 36px;
+        height: 43px;
+        float: right;
+        position: relative;
+        top: 17px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .manolito{
+        background: url(../img/saltitomanolo.png) no-repeat;
+        background-size: 100%;
+        width: 50px;
+        height: 60px;
+        float: right;
+        position: relative;
+        top: 10px;
+        right: 180px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .manolito{
+        background: url(../img/vayasaltomanolo.png) no-repeat;
+        background-size: 100%;
+        width: 50px;
+        height: 60px;
+        float: right;
+        position: relative;
+        top: 10px;
+        right: 210px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .manolito{
+        background: url(../img/saltitomanolo.png) no-repeat;
+        background-size: 100%;
+        width: 50px;
+        height: 60px;
+        float: right;
+        position: relative;
+        top: 10px;
+        right: 400px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .manolito{
+        background: url(../img/vayasaltomanolo.png) no-repeat;
+        background-size: 100%;
+        width: 50px;
+        height: 60px;
+        float: right;
+        position: relative;
+        top: 10px;
+        right: 450px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .manolito{
+        background: url(../img/saltitomanolo.png) no-repeat;
+        background-size: 100%;
+        width: 50px;
+        height: 60px;
+        float: right;
+        position: relative;
+        top: 10px;
+        right: 500px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .manolito{
+        background: url(../img/vayasaltomanolo.png) no-repeat;
+        background-size: 100%;
+        width: 50px;
+        height: 60px;
+        float: right;
+        position: relative;
+        top: 10px;
+        right: 550px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .manolito{
+        background: url(../img/saltitomanolo.png) no-repeat;
+        background-size: 100%;
+        width: 50px;
+        height: 60px;
+        float: right;
+        position: relative;
+        top: 10px;
+        right: 600px;
+    }
+}
+
+@media (max-width: 990px) {
+    .manolito{
+        background: url(../img/paradomanolo.png);
+        background-size: 100%;
+        width: 36px;
+        height: 43px;
+        float: right;
+        position: relative;
+        top: 17px;
+        right: 490px;
+    }
+}
+
+@media (max-width: 900px) {
+    .manolito{
+        background: url(../img/qhacesmanolo.png) no-repeat;
+        background-size: 100%;
+        width: 45px;
+        height: 50px;
+        float: right;
+        position: relative;
+        top: 28px;
+        right: 490px;
+    }
+}
+
+
+
+.formucon{
+    background-color: white;
+    padding: 5%;
+    float: right;
+    position: relative;
+    top: 60px;
+    right: 110px;
+    width: 400px;
+    box-shadow: 5px 5px 10px #00000062;
+}
+
+@media (max-width: 1199px) {
+    .formucon{
+        float: none;
+        right: -250px;
+    }
+}
+
+
+@media (max-width: 990px) {
+    .coco{
+        margin-top: 80px;
+    }
+    .formucon{
+        right: -150px;
+    }
+}
+
+
+@media (max-width: 765px) {
+    .formucon{
+        right: -50px;
+    }
+    .manolito{
+        background: url(../img/qhacesmanolo.png) no-repeat;
+        background-size: 100%;
+        width: 45px;
+        height: 50px;
+        float: right;
+        position: relative;
+        top: 28px;
+        right: 400px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container-sm{
+        background: none;
+        box-shadow: none;
+    }
+    .formucon{
+        right: -30px;
+    }
+}
+
+@media (max-width: 535px) {
+    .manolito{
+        background: none;
+    }
+}
+
+.btn-danger{
+    width: 100%;
+}
+
+.hj {
+    color: var(--rojoClaro);
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+/*
 .mancha-gris {
     position: relative;
     right: 20%;
@@ -1131,7 +1356,7 @@ textarea {
         padding: 15%;
         margin-top: 50px;
     }
-}
+}                                                                            */
 
 /*puntaje*/
 
